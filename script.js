@@ -16,10 +16,10 @@ function createTable() {
     text.value = " ";
     reset.style.display = "block";
   }
-  const resetTableau = () => {
-    let tableau = document.getElementById("tableau");
-    let reset = document.getElementById("reset");
-    tableau.style.display = "none";
-    reset.style.display = "none";
-  };
 }
+const resetTableau = () => {
+  let tableau = document.getElementById("tableau");
+  let reset = document.getElementById("reset");
+  tableau.style.display = "none";
+  reset.style.display = "none";
+};
